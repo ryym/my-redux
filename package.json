@@ -1,0 +1,13 @@
+{
+  "name": "@ryym/redux-root",
+  "private": true,
+  "scripts": {
+    "precommit": "npm run precommit:redux && npm run precommit:redux-react",
+    "precommit:redux": "onpm redux run precommit",
+    "precommit:redux-react": "onpm redux-react run precommit"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "othernpm": "^1.1.0"
+  }
+}

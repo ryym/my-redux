@@ -1,0 +1,30 @@
+{
+  "name": "@ryym/redux-react",
+  "version": "0.0.0",
+  "description": "TODO",
+  "keywords": [],
+  "author": "ryym",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
+  "files": ["src", "dist"],
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "tslint": "tslint --fix -t stylish 'src/**/*.ts?(x)'"
+  },
+  "devDependencies": {
+    "@ryym/redux": "^0",
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.31",
+    "@types/react": "^16.0.5",
+    "mocha": "^3.5.3",
+    "react": "^15.6.1",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  },
+  "peerDependencies": {
+    "@ryym/redux": "^0"
+  }
+}

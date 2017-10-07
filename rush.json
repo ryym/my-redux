@@ -1,0 +1,15 @@
+{
+  "rushMinimumVersion": "3.0.18",
+  "npmVersion": "5.3.0",
+  "nodeSupportedVersionRange": ">=8.0.0",
+  "projects": [
+    {
+      "packageName": "@ryym/redux",
+      "projectFolder": "redux"
+    },
+    {
+      "packageName": "@ryym/redux-react",
+      "projectFolder": "redux-react"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@ryym/redux",
+  "version": "0.0.0",
+  "description": "TODO",
+  "keywords": [],
+  "author": "ryym",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
+  "files": ["src", "dist"],
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "test": "TS_NODE_CACHE=0 mocha src/**/*.test.ts",
+    "test:w": "npm run test -- --watch --watch-extensions ts",
+    "tslint": "tslint --fix -t stylish 'src/**/*.ts'"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.31",
+    "mocha": "^3.5.3",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.5.2"
+  }
+}
